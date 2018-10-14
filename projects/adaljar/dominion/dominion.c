@@ -784,7 +784,9 @@ int playVillageCard(struct gameState *state, int currentPlayer, int handPos)
       state->numActions = state->numActions + 2;
       
       //discard played card from hand
-      discardCard(handPos, currentPlayer, state, 0);
+      //R- BUG INTRODUCED: Turned trash flag on - discardCard() will trash the card permanently (instead of placing it into discard pile)
+      //   Changed from:  discardCard(handPos, currentPlayer, state, 0);
+      discardCard(handPos, currentPlayer, state, 1);
       return 0;
 }
 
