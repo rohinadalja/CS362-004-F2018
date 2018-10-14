@@ -679,8 +679,9 @@ int playCouncilRoomCard(struct gameState *state, int currentPlayer, int handPos)
 {
   int i = 0;
 
-        //+4 Cards
-      for (i = 0; i < 4; i++)
+      //R- BUG INTRODUCED: Now, only 2 cards will be drawn instead of the original 4.
+      //   Changed from: for (i = 0; i < 4; i++)
+      for (i = 0; i < 2; i++)
   {
     drawCard(currentPlayer, state);
   }
