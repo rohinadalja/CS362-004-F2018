@@ -657,7 +657,9 @@ int playAdventurerCard(struct gameState *state, int currentPlayer, int *temphand
   // R- Added int 
   int cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
   
-  if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
+  // R- BUG INTRODUCED: Removed check for silver and gold cards. Now, drawntreasure is only incremented if the card drawn was copper card (but not silver or gold)
+  //    Changed from: if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
+  if (cardDrawn == copper)
     drawntreasure++;
   else{
     temphand[z]=cardDrawn;
