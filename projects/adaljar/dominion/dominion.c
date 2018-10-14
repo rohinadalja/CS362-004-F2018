@@ -706,8 +706,9 @@ int playCouncilRoomCard(struct gameState *state, int currentPlayer, int handPos)
 int playSmithyCard(struct gameState *state, int currentPlayer, int handPos)
 {
   int i = 0;
-       //+3 Cards
-      for (i = 0; i < 3; i++)
+       //R- BUG INTRODUCED: Pull +5 cards (instead of +3 Cards originally)
+       //   Changed from:   for (i = 0; i < 3; i++) 
+      for (i = 0; i < 5; i++)
   {
     drawCard(currentPlayer, state);
   }
@@ -719,6 +720,7 @@ int playSmithyCard(struct gameState *state, int currentPlayer, int handPos)
 
 int playFeastCard(struct gameState *state, int currentPlayer, int choice1, int *temphand)
 {
+  // R - NO BUGS IMPLEMENTED IN THIS FUNCTION
   int i = 0;
       //gain card with cost up to 5
       //Backup hand
