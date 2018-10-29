@@ -1,0 +1,161 @@
+unittest1.c:
+
+******  START Unit Test 1: Update Coins Test  ******
+Test Passed. (5 Coins)
+Test Passed. (6 Coins)
+Test Passed. (8 Coins)
+Test Passed. (15 Coins)
+******    END Unit Test 1: ALL PASSED!     ******
+File 'dominion.c'
+Lines executed:16.54% of 647
+Branches executed:15.50% of 413
+Taken at least once:12.59% of 413
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+unittest2.c:
+
+******  START Unit Test 2: Buying Cards  ******
+
+Check for enough coins:
+Passed Test (Check for enough coins)
+
+Attempt to buy card:
+Passed Test (Attempt to buy card)
+
+Check if user still has remaining buys:
+Passed Test (remaining buys)
+
+******    END Unit Test 2: ALL PASSED!     ******
+File 'dominion.c'
+Lines executed:20.25% of 647
+Branches executed:25.18% of 413
+Taken at least once:14.77% of 413
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+unittest3.c:
+
+******  START Unit Test 3: Card Cost Function  ******
+Passed Test (Card 1)
+Passed Test (Card 2)
+Passed Test (Card 3)
+Passed Test (Card 4)
+Passed Test (Card 5)
+Passed Test (Card 6)
+Passed Test (Card 7)
+Passed Test (Card 8)
+Passed Test (Card 9)
+Passed Test (Card 10)
+Passed Test (Card 11)
+Passed Test (Card 12)
+Passed Test (Card 13)
+Passed Test (Card 14)
+Passed Test (Card 15)
+Passed Test (Card 16)
+Passed Test (Card 17)
+Passed Test (Card 18)
+Passed Test (Card 19)
+Passed Test (Card 20)
+Passed Test (Card 21)
+Passed Test (Card 22)
+Passed Test (Card 23)
+Passed Test (Card 24)
+Passed Test (Card 25)
+Passed Test (Card 26)
+Passed Test (Card 27)
+
+******    END Unit Test 3: ALL PASSED!     ******
+File 'dominion.c'
+Lines executed:24.27% of 647
+Branches executed:25.18% of 413
+Taken at least once:21.07% of 413
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+unittest4.c:
+
+******  START Unit Test 4: Card Cost Function  ******
+Passed Test #1
+Passed Test #2
+Passed Test #3
+
+******    END Unit Test 4: ALL PASSED!     ******
+File 'dominion.c'
+Lines executed:24.42% of 647
+Branches executed:25.18% of 413
+Taken at least once:21.07% of 413
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+cardtest1.c:
+
+******  START Card Test 1: Adventurer Card  ******
+
+Failed (deck count)
+Failed (hand count)
+Passed (Adventurer card added to player's hand)
+Failed (test play Adventurer card)
+Failed (count Adventurer card in hand)
+Passed (discard Adventurer card)
+Failed (check Adventurer action)
+******  END Card Test 1: 5 TESTS FAILED!  ******
+
+File 'dominion.c'
+Lines executed:27.05% of 647
+Branches executed:32.69% of 413
+Taken at least once:22.76% of 413
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+cardtest2.c:
+
+
+******  START Card Test 2: Smithy Card  ******
+
+Failed (check hand count)
+Passed (Smithy card was added to player's hand)
+Failed (Smithy card not played)
+Failed (count Smithy card in hand)
+Passed (Smithy card was discarded)
+******  END Card Test 2: 3 TESTS FAILED!  ******
+
+File 'dominion.c'
+Lines executed:29.83% of 647
+Branches executed:34.62% of 413
+Taken at least once:24.21% of 413
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+cardtest3.c:
+
+******  START Card Test 3: Great Hall Card  ******
+
+Test Failed (hand count)
+Test Passed (check Great Hall action)
+******  END Card Test 3: 1 TESTS FAILED!  ******
+
+File 'dominion.c'
+Lines executed:30.45% of 647
+Branches executed:34.62% of 413
+Taken at least once:24.46% of 413
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
+cardtest4.c:
+
+******  START Card Test 4: Village Card  ******
+
+Passed (Village card added to the player's hand)
+Failed (player did not play Village card)
+Passed (Village card was discarded)
+Passed (Village card action test)
+******  END Card Test 4: 1 TESTS FAILED!  ******
+
+File 'dominion.c'
+Lines executed:31.22% of 647
+Branches executed:34.62% of 413
+Taken at least once:24.94% of 413
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
