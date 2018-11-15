@@ -32,6 +32,20 @@ runtests: testDrawCard
 player: player.c interface.o
 	gcc -o player player.c -g  dominion.o rngs.o interface.o $(CFLAGS)
 
+
+randomtest: makerandom
+	./randomtestcard1 42 >> randomtestcard1.out
+	./randomtestcard2 42 >> randomtestcard2.out
+	./randomtestadventurer 42 >> randomtestadventurer.out
+	gcov -f -b dominion.c >> randomtestadventurer.out
+	gcov -f -b dominion.c >> randomtestcard1.out
+	gcov -f -b dominion.c >> randomtestcard2.out
+
+makerandom: clean dominion.c rngs.c randomtestadventurer.c randomtestcard1.c randomtestcard2.c
+	gcc -fprofile-arcs -ftest-coverage -Wall -std=c99 dominion.c randomtestadventurer.c rngs.c -o randomtestadventurer -lm -g
+	gcc -fprofile-arcs -ftest-coverage -Wall -std=c99 dominion.c randomtestcard1.c rngs.c -o randomtestcard1 -lm -g
+	gcc -fprofile-arcs -ftest-coverage -Wall -std=c99 dominion.c randomtestcard2.c rngs.c -o randomtestcard2 -lm -g
+
 unittestresults: unittest1.c unittest2.c unittest3.c unittest4.c cardtest1.c cardtest2.c cardtest3.c cardtest4.c dominion.o
 	echo "unittest1.c:" >> unittestresults.out
 	gcc -o unittest1 dominion.c rngs.c unittest1.c $(CFLAGS)

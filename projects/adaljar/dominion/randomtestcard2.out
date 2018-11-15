@@ -1,0 +1,428 @@
+******   Random Test: Smithy   ******
+Random Test 1:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 430
+Hand Cnt: 158
+Card #: 588
+Coin #: 13
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 430
+Hand Cnt: 158
+Card #: 588
+Coin #: 13
+
+Random Test 2:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 440
+Hand Cnt: 209
+Card #: 649
+Coin #: 3
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 440
+Hand Cnt: 209
+Card #: 649
+Coin #: 3
+
+Random Test 3:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 327
+Hand Cnt: 3
+Card #: 330
+Coin #: 7
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 327
+Hand Cnt: 3
+Card #: 330
+Coin #: 7
+
+Random Test 4:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 209
+Hand Cnt: 169
+Card #: 378
+Coin #: 3
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 209
+Hand Cnt: 169
+Card #: 378
+Coin #: 3
+
+Random Test 5:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 316
+Hand Cnt: 278
+Card #: 594
+Coin #: 19
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 316
+Hand Cnt: 278
+Card #: 594
+Coin #: 19
+
+Random Test 6:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 310
+Hand Cnt: 267
+Card #: 577
+Coin #: 12
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 310
+Hand Cnt: 267
+Card #: 577
+Coin #: 12
+
+Random Test 7:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 467
+Hand Cnt: 321
+Card #: 788
+Coin #: 19
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 467
+Hand Cnt: 321
+Card #: 788
+Coin #: 19
+
+Random Test 8:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 228
+Hand Cnt: 245
+Card #: 473
+Coin #: 5
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 228
+Hand Cnt: 245
+Card #: 473
+Coin #: 5
+
+Random Test 9:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 208
+Hand Cnt: 153
+Card #: 361
+Coin #: 1
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 208
+Hand Cnt: 153
+Card #: 361
+Coin #: 1
+
+Random Test 10:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 30
+Hand Cnt: 196
+Card #: 226
+Coin #: 4
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 30
+Hand Cnt: 196
+Card #: 226
+Coin #: 4
+
+Random Test 11:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 301
+Hand Cnt: 24
+Card #: 325
+Coin #: 9
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 301
+Hand Cnt: 24
+Card #: 325
+Coin #: 9
+
+Random Test 12:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 298
+Hand Cnt: 433
+Card #: 731
+Coin #: 8
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 298
+Hand Cnt: 433
+Card #: 731
+Coin #: 8
+
+Random Test 13:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 63
+Hand Cnt: 314
+Card #: 377
+Coin #: 5
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 63
+Hand Cnt: 314
+Card #: 377
+Coin #: 5
+
+Random Test 14:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 129
+Hand Cnt: 94
+Card #: 223
+Coin #: 15
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 129
+Hand Cnt: 94
+Card #: 223
+Coin #: 15
+
+Random Test 15:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 451
+Hand Cnt: 404
+Card #: 855
+Coin #: 5
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 451
+Hand Cnt: 404
+Card #: 855
+Coin #: 5
+
+Random Test 16:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 252
+Hand Cnt: 382
+Card #: 634
+Coin #: 5
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 252
+Hand Cnt: 382
+Card #: 634
+Coin #: 5
+
+Random Test 17:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 1
+Hand Cnt: 144
+Card #: 145
+Coin #: 18
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 1
+Hand Cnt: 144
+Card #: 145
+Coin #: 18
+
+Random Test 18:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 177
+Hand Cnt: 358
+Card #: 535
+Coin #: 17
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 177
+Hand Cnt: 358
+Card #: 535
+Coin #: 17
+
+Random Test 19:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 245
+Hand Cnt: 231
+Card #: 476
+Coin #: 9
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 245
+Hand Cnt: 231
+Card #: 476
+Coin #: 9
+
+Random Test 20:
+~~ State before using Adventurer Card ~~
+Deck Cnt: 468
+Hand Cnt: 399
+Card #: 867
+Coin #: 2
+
+~~ State after using Adventurer Card ~~
+Deck Cnt: 468
+Hand Cnt: 399
+Card #: 867
+Coin #: 2
+
+
+ -->  ALL TESTS COMPLETED SUCCESSFULLY <-- 
+
+******   END - Random Test: Smithy   ******
+
+Function 'compare'
+Lines executed:83.33% of 6
+Branches executed:100.00% of 4
+Taken at least once:75.00% of 4
+No calls
+
+Function 'newGame'
+Lines executed:0.00% of 2
+No branches
+No calls
+
+Function 'kingdomCards'
+Lines executed:0.00% of 12
+No branches
+No calls
+
+Function 'initializeGame'
+Lines executed:96.15% of 78
+Branches executed:100.00% of 46
+Taken at least once:89.13% of 46
+No calls
+
+Function 'shuffle'
+Lines executed:94.44% of 18
+Branches executed:100.00% of 8
+Taken at least once:87.50% of 8
+No calls
+
+Function 'playCard'
+Lines executed:71.43% of 14
+Branches executed:100.00% of 10
+Taken at least once:50.00% of 10
+No calls
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+No calls
+
+Function 'numHandCards'
+Lines executed:100.00% of 1
+No branches
+No calls
+
+Function 'handCard'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'supplyCount'
+Lines executed:0.00% of 1
+No branches
+No calls
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 11
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+No calls
+
+Function 'whoseTurn'
+Lines executed:100.00% of 1
+No branches
+No calls
+
+Function 'endTurn'
+Lines executed:0.00% of 22
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+No calls
+
+Function 'isGameOver'
+Lines executed:0.00% of 12
+Branches executed:0.00% of 8
+Taken at least once:0.00% of 8
+No calls
+
+Function 'scoreFor'
+Lines executed:0.00% of 26
+Branches executed:0.00% of 42
+Taken at least once:0.00% of 42
+No calls
+
+Function 'getWinners'
+Lines executed:0.00% of 33
+Branches executed:0.00% of 22
+Taken at least once:0.00% of 22
+No calls
+
+Function 'drawCard'
+Lines executed:33.33% of 24
+Branches executed:33.33% of 6
+Taken at least once:16.67% of 6
+No calls
+
+Function 'getCost'
+Lines executed:0.00% of 30
+Branches executed:0.00% of 28
+Taken at least once:0.00% of 28
+No calls
+
+Function 'playAdventurerCard'
+Lines executed:58.82% of 17
+Branches executed:100.00% of 8
+Taken at least once:62.50% of 8
+No calls
+
+Function 'playCouncilRoomCard'
+Lines executed:0.00% of 12
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+No calls
+
+Function 'playSmithyCard'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+No calls
+
+Function 'playFeastCard'
+Lines executed:0.00% of 20
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+No calls
+
+Function 'playVillageCard'
+Lines executed:100.00% of 4
+No branches
+No calls
+
+Function 'cardEffect'
+Lines executed:3.78% of 238
+Branches executed:13.61% of 169
+Taken at least once:2.37% of 169
+No calls
+
+Function 'discardCard'
+Lines executed:86.67% of 15
+Branches executed:100.00% of 6
+Taken at least once:83.33% of 6
+No calls
+
+Function 'gainCard'
+Lines executed:0.00% of 15
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+No calls
+
+Function 'updateCoins'
+Lines executed:71.43% of 14
+Branches executed:100.00% of 8
+Taken at least once:75.00% of 8
+No calls
+
+File 'dominion.c'
+Lines executed:26.43% of 647
+Branches executed:28.33% of 413
+Taken at least once:19.13% of 413
+No calls
+dominion.c:creating 'dominion.c.gcov'
+

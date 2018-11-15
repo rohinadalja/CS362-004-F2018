@@ -1,0 +1,388 @@
+******   Random Test: Adventurer   ******
+Random Test Output 1:
+~~ State before using Adventurer Card ~~
+Deck cnt: 73
+Hand cnt: 249
+Card #: 480
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 73
+Hand cnt: 249
+Card #: 480
+
+Random Test Output 2:
+~~ State before using Adventurer Card ~~
+Deck cnt: 44
+Hand cnt: 272
+Card #: 694
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 44
+Hand cnt: 272
+Card #: 694
+
+Random Test Output 3:
+~~ State before using Adventurer Card ~~
+Deck cnt: 440
+Hand cnt: 209
+Card #: 814
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 440
+Hand cnt: 209
+Card #: 814
+
+Random Test Output 4:
+~~ State before using Adventurer Card ~~
+Deck cnt: 487
+Hand cnt: 42
+Card #: 532
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 487
+Hand cnt: 42
+Card #: 532
+
+Random Test Output 5:
+~~ State before using Adventurer Card ~~
+Deck cnt: 340
+Hand cnt: 229
+Card #: 681
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 340
+Hand cnt: 229
+Card #: 681
+
+Random Test Output 6:
+~~ State before using Adventurer Card ~~
+Deck cnt: 209
+Hand cnt: 169
+Card #: 535
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 209
+Hand cnt: 169
+Card #: 535
+
+Random Test Output 7:
+~~ State before using Adventurer Card ~~
+Deck cnt: 99
+Hand cnt: 433
+Card #: 810
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 99
+Hand cnt: 433
+Card #: 810
+
+Random Test Output 8:
+~~ State before using Adventurer Card ~~
+Deck cnt: 97
+Hand cnt: 335
+Card #: 758
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 97
+Hand cnt: 335
+Card #: 758
+
+Random Test Output 9:
+~~ State before using Adventurer Card ~~
+Deck cnt: 310
+Hand cnt: 267
+Card #: 710
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 310
+Hand cnt: 267
+Card #: 710
+
+Random Test Output 10:
+~~ State before using Adventurer Card ~~
+Deck cnt: 79
+Hand cnt: 149
+Card #: 549
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 79
+Hand cnt: 149
+Card #: 549
+
+Random Test Output 11:
+~~ State before using Adventurer Card ~~
+Deck cnt: 393
+Hand cnt: 172
+Card #: 901
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 393
+Hand cnt: 172
+Card #: 901
+
+Random Test Output 12:
+~~ State before using Adventurer Card ~~
+Deck cnt: 228
+Hand cnt: 245
+Card #: 564
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 228
+Hand cnt: 245
+Card #: 564
+
+Random Test Output 13:
+~~ State before using Adventurer Card ~~
+Deck cnt: 1
+Hand cnt: 357
+Card #: 511
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 1
+Hand cnt: 357
+Card #: 511
+
+Random Test Output 14:
+~~ State before using Adventurer Card ~~
+Deck cnt: 168
+Hand cnt: 444
+Card #: 1102
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 168
+Hand cnt: 444
+Card #: 1102
+
+Random Test Output 15:
+~~ State before using Adventurer Card ~~
+Deck cnt: 30
+Hand cnt: 196
+Card #: 629
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 30
+Hand cnt: 196
+Card #: 629
+
+Random Test Output 16:
+~~ State before using Adventurer Card ~~
+Deck cnt: 49
+Hand cnt: 166
+Card #: 239
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 49
+Hand cnt: 166
+Card #: 239
+
+Random Test Output 17:
+~~ State before using Adventurer Card ~~
+Deck cnt: 477
+Hand cnt: 353
+Card #: 1238
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 477
+Hand cnt: 353
+Card #: 1238
+
+Random Test Output 18:
+~~ State before using Adventurer Card ~~
+Deck cnt: 298
+Hand cnt: 433
+Card #: 1212
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 298
+Hand cnt: 433
+Card #: 1212
+
+Random Test Output 19:
+~~ State before using Adventurer Card ~~
+Deck cnt: 365
+Hand cnt: 13
+Card #: 692
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 365
+Hand cnt: 13
+Card #: 692
+
+Random Test Output 20:
+~~ State before using Adventurer Card ~~
+Deck cnt: 425
+Hand cnt: 36
+Card #: 630
+
+~~ State after using Adventurer Card ~~
+Deck cnt: 425
+Hand cnt: 36
+Card #: 630
+
+
+ -->  ALL TESTS COMPLETED SUCCESSFULLY <-- 
+
+******   END - Random Test: Adventurer   ******
+
+Function 'compare'
+Lines executed:83.33% of 6
+Branches executed:100.00% of 4
+Taken at least once:75.00% of 4
+No calls
+
+Function 'newGame'
+Lines executed:0.00% of 2
+No branches
+No calls
+
+Function 'kingdomCards'
+Lines executed:0.00% of 12
+No branches
+No calls
+
+Function 'initializeGame'
+Lines executed:96.15% of 78
+Branches executed:100.00% of 46
+Taken at least once:89.13% of 46
+No calls
+
+Function 'shuffle'
+Lines executed:94.44% of 18
+Branches executed:100.00% of 8
+Taken at least once:87.50% of 8
+No calls
+
+Function 'playCard'
+Lines executed:71.43% of 14
+Branches executed:100.00% of 10
+Taken at least once:50.00% of 10
+No calls
+
+Function 'buyCard'
+Lines executed:0.00% of 13
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+No calls
+
+Function 'numHandCards'
+Lines executed:100.00% of 1
+No branches
+No calls
+
+Function 'handCard'
+Lines executed:100.00% of 2
+No branches
+No calls
+
+Function 'supplyCount'
+Lines executed:0.00% of 1
+No branches
+No calls
+
+Function 'fullDeckCount'
+Lines executed:0.00% of 11
+Branches executed:0.00% of 12
+Taken at least once:0.00% of 12
+No calls
+
+Function 'whoseTurn'
+Lines executed:100.00% of 1
+No branches
+No calls
+
+Function 'endTurn'
+Lines executed:0.00% of 22
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+No calls
+
+Function 'isGameOver'
+Lines executed:0.00% of 12
+Branches executed:0.00% of 8
+Taken at least once:0.00% of 8
+No calls
+
+Function 'scoreFor'
+Lines executed:0.00% of 26
+Branches executed:0.00% of 42
+Taken at least once:0.00% of 42
+No calls
+
+Function 'getWinners'
+Lines executed:0.00% of 33
+Branches executed:0.00% of 22
+Taken at least once:0.00% of 22
+No calls
+
+Function 'drawCard'
+Lines executed:33.33% of 24
+Branches executed:33.33% of 6
+Taken at least once:16.67% of 6
+No calls
+
+Function 'getCost'
+Lines executed:0.00% of 30
+Branches executed:0.00% of 28
+Taken at least once:0.00% of 28
+No calls
+
+Function 'playAdventurerCard'
+Lines executed:58.82% of 17
+Branches executed:100.00% of 8
+Taken at least once:62.50% of 8
+No calls
+
+Function 'playCouncilRoomCard'
+Lines executed:0.00% of 12
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+No calls
+
+Function 'playSmithyCard'
+Lines executed:100.00% of 6
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+No calls
+
+Function 'playFeastCard'
+Lines executed:0.00% of 20
+Branches executed:0.00% of 10
+Taken at least once:0.00% of 10
+No calls
+
+Function 'playVillageCard'
+Lines executed:100.00% of 4
+No branches
+No calls
+
+Function 'cardEffect'
+Lines executed:3.78% of 238
+Branches executed:13.61% of 169
+Taken at least once:2.37% of 169
+No calls
+
+Function 'discardCard'
+Lines executed:86.67% of 15
+Branches executed:100.00% of 6
+Taken at least once:83.33% of 6
+No calls
+
+Function 'gainCard'
+Lines executed:0.00% of 15
+Branches executed:0.00% of 6
+Taken at least once:0.00% of 6
+No calls
+
+Function 'updateCoins'
+Lines executed:71.43% of 14
+Branches executed:100.00% of 8
+Taken at least once:75.00% of 8
+No calls
+
+File 'dominion.c'
+Lines executed:26.43% of 647
+Branches executed:28.33% of 413
+Taken at least once:19.13% of 413
+No calls
+dominion.c:creating 'dominion.c.gcov'
+
