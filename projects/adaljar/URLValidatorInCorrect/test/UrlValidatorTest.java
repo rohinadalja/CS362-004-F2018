@@ -12,6 +12,11 @@ import junit.framework.TestCase;
 
 public class UrlValidatorTest extends TestCase {
 
+   String validScheme = "http://";
+   String validAuthority = "www.google.com";
+   String validPort = ":80";
+   String validPath = "/path";
+   String validQuery = "?refresh=true";
 
    public UrlValidatorTest(String testName) {
       super(testName);
