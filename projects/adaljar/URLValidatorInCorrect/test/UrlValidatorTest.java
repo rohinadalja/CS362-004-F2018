@@ -102,8 +102,8 @@ public class UrlValidatorTest extends TestCase {
 
    //You need to create more test cases for your Partitions if you need to 
    public void testYourThirdPartition(){
-      String[] validPortList = {"",":80", ":8080", ":433", ":6789", ":265", ":935", ":1115", ":5858",":15455", ":65530"};
-      String[] invalidPortList = {" ","aa",":-4", ":test32", ":", ":242342234"};
+      String[] validPortList = {"",":80", ":8080", ":433", ":6789", ":562", ":539", ":1445", ":4384",":12455", ":65530"};
+      String[] invalidPortList = {" ","aaa", ":bad43", ":", ":242342234", ":-0"};
       UrlValidator urlVal = new UrlValidator();
 
       //TEST PORT PARTITIONING: VALID (TRY URLS CONTAINING THE VALID TEST PORTS)
@@ -125,8 +125,8 @@ public class UrlValidatorTest extends TestCase {
    }
 
    public void testYourFourthPartition(){  
-      String[] validPathList = {"","/","/path","/path/","/foo/bar" "/foo/bar/", "/1/2/3/4/" };
-      String[] invalidPathList = {"/path/...test","badpath","////alsobadpath", "//oopspath"};
+      String[] validPathList = {"", "/", "/path", "/path/", "/foo/bar", "/foo/bar/", "/1/2/3/4/" };
+      String[] invalidPathList = {"/path/...test", "badpath", "////alsobadpath", "//oopspath"};
       UrlValidator urlVal = new UrlValidator();
 
       //TEST QUERY PARTITIONING: VALID (TRY URLS CONTAINING THE VALID TEST PATHS)
@@ -148,8 +148,8 @@ public class UrlValidatorTest extends TestCase {
    }
 
    public void testYourFifthPartition(){  
-      String[] validQueryList = {"","?foo=bar","?state=oregon&best=true", "?foo+bar=foobar"};
-      String[] invalidQueryList = {"/ ?s","?a=b=c","?d e f","???foo=bar"};
+      String[] validQueryList = {"", "?foo=bar", "?state=oregon&best=true", "?foo+bar=foobar"};
+      String[] invalidQueryList = {"/ ?s", "?a=b=c", "?d e f", "???foo=bar"};
       UrlValidator urlVal = new UrlValidator();
 
       //TEST QUERY PARTITIONING: VALID (TRY URLS CONTAINING THE VALID TEST QUERIES)
@@ -201,22 +201,53 @@ public class UrlValidatorTest extends TestCase {
 
    private KnownRes[] resPorts = {
       new KnownRes("", true),
-
-      new KnownRes("", false)
+      new KnownRes(":80", true),
+      new KnownRes(":8080", true),  
+      new KnownRes(":433", true),
+      new KnownRes(":6789", true),
+      new KnownRes(":562", true),
+      new KnownRes(":539", true),
+      new KnownRes(":1445", true),
+      new KnownRes(":4384", true),
+      new KnownRes(":12455", true),
+      new KnownRes(":65530", true),
+         
+      new KnownRes(" ", false),
+      new KnownRes("aaa", false),
+      new KnownRes(":bad43", false),
+      new KnownRes(":", false),
+      new KnownRes(":242342234", false),
+      new KnownRes(":-0", false)
    };
+
 
    private KnownRes[] resPaths = {
       new KnownRes("", true),
+      new KnownRes("/", true),
+      new KnownRes("/path", true),
+      new KnownRes("/path/", true),
+      new KnownRes("/foo/bar", true),
+      new KnownRes("/foo/bar/", true),
+      new KnownRes("/1/2/3/4/", true),
 
-      new KnownRes("", false)
+      new KnownRes("/path/...test", false),
+      new KnownRes("badpath", false),
+      new KnownRes("////alsobadpath", false),
+      new KnownRes("//oopspath", false)
    };
+
 
    private KnownRes[] resQueries = {
       new KnownRes("", true),
+      new KnownRes("?foo=bar", true),
+      new KnownRes("?state=oregon&best=true", true),
+      new KnownRes("?foo+bar=foobar", true),
 
-      new KnownRes("", false)
+      new KnownRes("/ ?s", false),
+      new KnownRes("?a=b=c", false),
+      new KnownRes("?d e f", false),
+      new KnownRes("???foo=bar", false)
    };
-
 
 
    private KnownRes[][] partsToCheck = {resSchemes, resHost, resPorts, resPaths, resQueries};
