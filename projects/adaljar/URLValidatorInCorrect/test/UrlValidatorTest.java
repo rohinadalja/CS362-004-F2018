@@ -29,28 +29,65 @@ public class UrlValidatorTest extends TestCase {
    {
       //You can use this function to implement your manual testing	   
 	   UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
-      System.out.println("TESTS: Running Manual Testing");
+      System.out.println("TESTS: Running Manual Testing\n");
 
 
-      int failCount = 0;
-
-      //EXPECTED: TRUE
+      System.out.println(urlVal.isValid("\n\nTESTING VALID SCHEMES: EXPECTED TRUE\n"));
       System.out.println(urlVal.isValid("http://www.gmail.com"));
-
       System.out.println(urlVal.isValid("www.gmail.com"));
-
       System.out.println(urlVal.isValid("https://www.gmail.com"));
 
-      //EXPECTED: FALSE
+      System.out.println(urlVal.isValid("\n\nTESTING INVALID SCHEMES: EXPECTED FALSE\n"));
       System.out.println(urlVal.isValid("://www.gmail.com"));
-
+      System.out.println(urlVal.isValid("http:/www.gmail.com"));
+      System.out.println(urlVal.isValid("ht://www.gmail.com"));
       System.out.println(urlVal.isValid("ccc://www.gmail.com"));
-
       System.out.println(urlVal.isValid("https:/www.gmail.com"));
+
+      System.out.println(urlVal.isValid("\n\nTESTING VALID SCHEMES, VALID HOSTS: EXPECTED TRUE\n"));
+      System.out.println(urlVal.isValid("http://www.gmail.com"));
+      System.out.println(urlVal.isValid("http://gmail.com"));
+      System.out.println(urlVal.isValid("http://192.168.1.1"));
+
+      System.out.println(urlVal.isValid("\n\nTESTING INVALID HOSTS: EXPECTED FALSE\n"));
+      System.out.println(urlVal.isValid("http://ccc.gmail.com"));
+      System.out.println(urlVal.isValid("www.gmail"));
+      System.out.println(urlVal.isValid("https://gmail"));
+
+      System.out.println(urlVal.isValid("\n\nTESTING VALID SCHEMES, VALID HOSTS, VALID PORTS: EXPECTED TRUE\n"));
+      System.out.println(urlVal.isValid("http://www.gmail.com"));
+      System.out.println(urlVal.isValid("http://gmail.com:80"));
+      System.out.println(urlVal.isValid("http://192.168.1.1:1445"));
+
+      System.out.println(urlVal.isValid("\n\nTESTING INVALID PORTS: EXPECTED FALSE\n"));
+      System.out.println(urlVal.isValid("http://www.gmail.com:bad43"));
+      System.out.println(urlVal.isValid("http://gmail.com:242342234"));
+      System.out.println(urlVal.isValid("http://192.168.1.1badtest"));
+
+      System.out.println(urlVal.isValid("\n\nTESTING VALID SCHEMES, VALID HOSTS, VALID PORTS, VALID PATHS: EXPECTED TRUE\n"));
+      System.out.println(urlVal.isValid("http://www.gmail.com:8080/path"));
+      System.out.println(urlVal.isValid("http://gmail.com:80/path/"));
+      System.out.println(urlVal.isValid("http://192.168.1.1:1445/1/2/3/4/"));
+  
+      System.out.println(urlVal.isValid("\n\nTESTING INVALID PATHS: EXPECTED FALSE\n"));
+      System.out.println(urlVal.isValid("http://www.gmail.com:8080//oopspath"));
+      System.out.println(urlVal.isValid("http://gmail.com:80////alsobadpath"));
+      System.out.println(urlVal.isValid("http://192.168.1.1:1445/path/...test"));
+
+      System.out.println(urlVal.isValid("\n\nTESTING VALID SCHEMES, VALID HOSTS, VALID PORTS, VALID PATHS, QUERIES: EXPECTED TRUE\n"));
+      System.out.println(urlVal.isValid("http://www.gmail.com:8080/path?foo=bar"));
+      System.out.println(urlVal.isValid("http://gmail.com:80/path?state=oregon&best=true"));
+      System.out.println(urlVal.isValid("http://192.168.1.1:1445/1/2/3/4/?foo+bar=foobar"));
+
+      System.out.println(urlVal.isValid("\n\nTESTING INVALID QUERIES: EXPECTED FALSE\n"));
+      System.out.println(urlVal.isValid("http://www.gmail.com:8080/path ?s"));
+      System.out.println(urlVal.isValid("http://gmail.com:80/path/?a=b=c"));
+      System.out.println(urlVal.isValid("http://192.168.1.1:1445/1/2/3/4/???foo=bar"));
+
 
    }
    
-   
+
    public void testYourFirstPartition()
    {
 	   //You can use this function to implement your First Partition testing	  
@@ -169,9 +206,6 @@ public class UrlValidatorTest extends TestCase {
       }
       System.out.println("\n\n***********************\n\n");
    }
-
-      String[] validHostList = {"www.gmail.com","gmail.com","192.168.1.1"};
-      String[] invalidHostList = {"www.gmail%.com","ccc.gmail.com",""," ","badtest","gmail","www.gmail"};
 
    private KnownRes[] resSchemes = {
       new KnownRes("http://", true),
